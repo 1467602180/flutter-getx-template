@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getx_template/generated/locales.g.dart';
 
 import 'package:get/get.dart';
 
@@ -10,6 +11,7 @@ void main() {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
+      translationsKeys: AppTranslation.translations,
     ),
   );
 }
